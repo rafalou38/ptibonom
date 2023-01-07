@@ -1,0 +1,11 @@
+{
+  "name": "ptibonom",
+  "version": "1.0.0",
+  "description": "Site pour les videos de papa.",
+  "repository": "none",
+  "author": "Rafael MC",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
