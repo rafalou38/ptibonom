@@ -4,35 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/latest.css" />
+    <link rel="stylesheet" href="./styles/old.css" />
     <title>Ptibonom</title>
   </head>
   <body>
     <section id="latest">
       <div id="wrapper">
-        <img
-          class="main"
-          id="cover"
-          src="./static/2023/couverture.png"
-          alt="Vidéo 2023"
-        />
-        <video
-          class="main"
-          id="video"
-          src="./static/2023/Compil.mp4"
-          controls
-          hidden
-        ></video>
-        <!-- <img class="cover" src="./static/2023/couverture.png" alt="Vidéo 2023" /> -->
-        <img
-          class="title"
-          src="./static/2023/titre.png"
-          alt="Bonne année 2023"
-        />
+        <!-- COVER -->
+        <img class="main" id="cover" src="" alt="Vidéo 2023" />
+        <!-- VIDEO -->
+        <video class="main" id="video" src="" controls hidden></video>
+        <!-- TITLE -->
+        <img class="title" src="/static/titre.png" alt="Bonne année 2023" />
       </div>
     </section>
 
-    <section id="old"></section>
+    <section id="old">
+      <div class="card" onclick="loadYear(2023)">
+        <img src="/static/2023/cover.png" alt="" />
+        <h2>2023</h2>
+      </div>
+      <div class="card" onclick="loadYear(2022)">
+        <img src="/static/2022/cover.png" alt="" />
+        <h2>2022</h2>
+      </div>
+    </section>
 
     <script src="./index.js"></script>
   </body>

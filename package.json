@@ -7,10 +7,9 @@
   "license": "MIT",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build"
+    "dev": "live-server ./src/"
   },
   "devDependencies": {
-    "parcel": "^2.8.2"
+    "live-server": "^1.2.2"
   }
 }
