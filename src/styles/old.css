@@ -9,7 +9,7 @@ section#old {
   cursor: pointer;
   flex-shrink: 0;
 
-  width: 300px;
+  /* width: 300px; */
   text-align: center;
   transition: transform 0.5s ease;
 
@@ -22,7 +22,8 @@ section#old {
 }
 
 .card img {
-  width: 100%;
+  /* width: 100%; */
+  height: 200px;
 }
 
 .card h2 {
