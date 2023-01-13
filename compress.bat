@@ -1,4 +1,4 @@
-ffmpeg -y -i .\src\static\2018\video.mp4 -movflags faststart .\src\static\2018\video-b.mp4
+ffmpeg -y -i .\src\static\2023\Compil.mp4 -movflags faststart .\src\static\2023\video.mp4
 
 
 rm .\src\static\2018\video.mp4 
