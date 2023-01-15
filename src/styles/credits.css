@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+main {
+  text-align: center;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
