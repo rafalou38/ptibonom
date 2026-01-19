@@ -1,5 +1,5 @@
-let VIDEO = "/static/2025/video.mp4";
-let COVER = "/static/2025/cover.png";
+let VIDEO = "/static/2000/video.mp4";
+let COVER = "/static/2000/cover.png";
 
 /**  @type {HTMLVideoElement} */
 const video = document.querySelector("#video");
@@ -29,7 +29,7 @@ function loadYear(year) {
   setMode("cover");
 }
 
-loadYear(2025);
+loadYear(2026);
 
 // // Archives
 // /** @type {HTMLDivElement[]} */
